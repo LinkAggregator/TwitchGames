@@ -7,8 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 @font-face {
-  font-family: TwitchytTV;
-  src: url(Twitchy.TV.otf);
+  font-family: Goal-rgnV7;
+  src: url(Goal-rgnV7.otf);
 }
 
 * {
@@ -69,7 +69,7 @@ body {
 h1 {
   color: #ffffff;
   text-shadow: 1px 1px 1px #000000;
-  font-family: 'g Goal Regular', monospace;
+  font-family: 'Goal-rgnV7', monospace;
   font-weight: 200;
   display: flex;
   font-size: 30px;
