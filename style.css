@@ -84,6 +84,11 @@ h1 {
   font-size: 13px;
 }
 
+#wos {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 .button-word1 {
   font-family: 'Comfortaa', monospace;
   font-weight: 600;
@@ -192,6 +197,7 @@ span {
 #redes-sociais3 > ul {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 
 #redes-sociais4 > ul > div > li > a > img {
@@ -210,6 +216,7 @@ span {
 #redes-sociais4 > ul {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 
 .divisao4 {
@@ -230,4 +237,48 @@ span {
 
 #redes-sociais4 > ul > div > li > a > img:hover {
   border: 3px solid #6f00ff;
+}
+
+@media (max-width: 1200px) {
+  #redes-sociais > ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  #redes-sociais > ul > div {
+    margin-bottom: 20px;
+  }
+  #redes-sociais2 > ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  #redes-sociais2 > ul > div {
+    margin-bottom: 20px;
+  }
+  #redes-sociais3 > ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  #redes-sociais3 > ul > div {
+    margin-bottom: 20px;
+  }
+  #redes-sociais4 > ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  #redes-sociais4 > ul > div {
+    margin-bottom: 20px;
+  }
+  .line {
+    background-color: rgb(18, 18, 18, 0.9);
+    height: 3px;
+    width: 100%;
+    box-shadow: 2px -2px rgba(42, 42, 42, 0.9);
+    margin-bottom: 30px;
+    margin-top: 35px;
+  }
 }
